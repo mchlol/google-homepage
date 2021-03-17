@@ -1,0 +1,1 @@
+This is a beginner project; to make a copy of the basic Google homepage, with logo and search bar, plus a nav bar and footer. 
