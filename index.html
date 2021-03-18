@@ -1,8 +1,15 @@
 <!DOCTYPE html>
 
 <head>
-<title>Google</title>
-<link rel="stylesheet" href="style.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Google</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
 </head>
 
 <body>
@@ -16,24 +23,31 @@
         <ul id="navlinks-right">
             <li><a href="#">Gmail</a></li>
             <li><a href="#">Images</a></li>
-            <li><a href="#">Apps</a></li>
+            <li><a href="#"><i class="fas fa-th"></i></a></li>
             <li><button id="btn-signin">Sign in</button></li>
         </ul>
     </nav>
 
     <main>
+        <section id="main-content">
 
-        <img id="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo">
+            <div id="logo">
+                <img id="logo-img" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo">
+            </div>
 
-        <!-- input area needs magnifying glass and microphone -->
-        <input type="text">
+            <!-- input area needs magnifying glass and microphone -->
+            
+                <textarea class="fas" placeholder="&#xf002"></textarea>
+            
 
-        <div id="search-links">
+            <div id="search-links">
 
-            <a href="#">Google Search</a> 
-            <a href="#">I'm Feeling Lucky</a>
+                <a href="#">Google Search</a> 
+                <a href="#">I'm Feeling Lucky</a>
 
-        </div>
+            </div>
+
+        </section>
 
     </main>
 
@@ -43,10 +57,12 @@
         </div>
 
         <div id="footer-links">
-            <ul>
+            <ul id="footer-links-top">
                 <li><a href="##">Advertising</a></li>
                 <li><a href="#">Business</a></li>
                 <li><a href="#">How Search Works</a></li>
+            </ul>
+            <ul id="footer-links-bottom"></ul>
                 <li><a href="#">Privacy</a></li>
                 <li><a href="#">Terms</a></li>
                 <li><a href="#">Settings</a></li>
