@@ -10,22 +10,29 @@
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 
+    <!-- ICONS -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
 </head>
 
 <body>
 
     <nav id="navbar">
-        <ul id="navlinks-left">
-            <li><a href="#">About</a></li>
-            <li><a href="#">Store</a></li>
-        </ul>
+        <ul>
+            <li class="nav-left"><a href="#">About</a></li>
+            <li class="nav-left"><a href="#">Store</a></li>
 
-        <ul id="navlinks-right">
-            <li><a href="#">Gmail</a></li>
-            <li><a href="#">Images</a></li>
-            <li><a href="#"><i class="fas fa-th"></i></a></li>
-            <li><button id="btn-signin">Sign in</button></li>
-        </ul>
+            <li class="nav-right"><button id="btn-signin">Sign in</button></li>
+
+            <li class="nav-right"><a href="#"><span id="app-icon" class="material-icons">
+                &#xe5c3
+                </span></a></li>
+
+            <li class="nav-right"><a href="#">Images</a></li>   
+            <li class="nav-right"><a href="#">Gmail</a></li>
+            
+            </ul>
+
     </nav>
 
     <main>
@@ -34,10 +41,8 @@
             <div id="logo">
                 <img id="logo-img" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo">
             </div>
-
-            <!-- input area needs magnifying glass and microphone -->
             
-                <textarea class="fas" placeholder="&#xf002"></textarea>
+                <input type="text" class="material-icons" placeholder="&#xe8b6">
             
 
             <div id="search-links">
@@ -57,12 +62,10 @@
         </div>
 
         <div id="footer-links">
-            <ul id="footer-links-top">
+            <ul>
                 <li><a href="##">Advertising</a></li>
                 <li><a href="#">Business</a></li>
                 <li><a href="#">How Search Works</a></li>
-            </ul>
-            <ul id="footer-links-bottom"></ul>
                 <li><a href="#">Privacy</a></li>
                 <li><a href="#">Terms</a></li>
                 <li><a href="#">Settings</a></li>
