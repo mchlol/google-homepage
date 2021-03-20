@@ -27,6 +27,11 @@ i {
     color: gray;
   }
 
+button:hover {
+    box-shadow: 1px 1px 2px 1px silver;
+}
+
+
     /** nav styles **/
 
 #navbar {
@@ -38,22 +43,31 @@ i {
     padding-top: 20px;
   }
 
+#navbar span {
+    color: gray;
+}
+
 nav a {
     color: #000000;
   }
 
-.nav-left {
-    float: left;
-  }
+#navbar {
+    padding: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: center;
+    }
 
-.nav-right {
-    float: right;
-  }
+#navbar ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 
 li {
-    margin-right: 20px;
-    margin-left: 20px;
     display: inline;
+    padding: 10px;
   }
 
 li a {
@@ -62,16 +76,19 @@ li a {
     font-size: 14px;
   }
 
-
+#navbar ul li {
+    font-size: 12px;
+}
 
 #btn-signin {
     background-color: #1a73e8;
     color: white;
     border: 1px solid transparent;
     border-radius: 5px;
-    padding: 10px 15px 10px 15px;
-    font-size: .89em;
+    padding: 9px 22px 9px 22px;
+    font-size: 14px;
   }
+
 
     /** main body styles **/
 
@@ -86,15 +103,15 @@ li a {
   }
 
 #input-container {
-    border: 1px solid gray;
+    border: 1px solid silver;
     height: 50px;
-    width: 60%;
-    border-radius: 15px;
+    width: 80%;
+    border-radius: 25px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
     padding: 5px 10px 5px 10px;
-    margin: 20px;
+    margin: 30px;
 }
 
 input {
@@ -124,9 +141,10 @@ input:focus {
 
 .btn-search:hover {
     color: black;
-    border: 1px solid gray;
     text-decoration: none;
   }
+
+  
 
     /** footer styles **/
 
@@ -143,17 +161,25 @@ footer a {
     
 #footer-location {
     padding: 15px 30px;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid silver;
     background-color: ghostwhite;
     }
 
-footer ul {
-    padding: 10px 20px 20px  20px;
+#footer-links {
+    padding: 15px;
     background-color: ghostwhite;
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     }
+
+#footer-links-right {
+    padding-bottom: 10px;
+}
+
+#footer-links-left {
+    padding-bottom: 10px;
+}
 
 
